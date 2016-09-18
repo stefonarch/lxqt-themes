@@ -1,0 +1,80 @@
+/*
+ * Panel
+ */
+
+#panel {
+  background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+  stop: 0 #d0e6ec, stop: 1 #75979e);
+  border: 1px solid #52aec3;
+  border-radius: 1px;
+  padding: 3px;
+  margin: 0px;
+}
+
+/*
+ * Buttons
+ */
+
+QToolButton::menu-indicator {
+  image: none;
+}
+
+QToolButton {
+  margin: 0px;
+  border: 0px solid transparent;
+  padding: 0px;
+  font-size: 10pt;
+  qproperty-iconSize: 20px;
+}
+
+QToolButton:hover {
+  margin: 1px;
+  padding: 1px;
+}
+
+#closeButton {
+  property-icon: url(lxqt-runner/close.svg);
+}
+
+#actionButton {
+  property-icon: url(lxqt-runner/down-arrow.svg);
+}
+
+/*
+ *Search field
+ */
+
+#commandEd {
+  border: 1px solid palette(text);
+  padding: 4px;
+  margin: 5px;
+  background: #f0f0f0;
+  border-radius:2px;
+  font:14px dejavu-sans;
+}
+
+QMenu {
+   background:#8da9b8;
+   border-radius:2px;
+}
+
+QMenu::item {
+   color: #1b2b39;
+   background: #8da9b8;
+   padding: 5px 35px 5px 30px;
+}
+QMenu::icon {
+   background-color: transparent;
+   border: 1px solid transparent;
+   margin-left: 13px;
+}
+QMenu::item:selected {
+   background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+   stop: 0 #def6fc, stop: 0.08 #d0e6ec,
+   stop: 0.35 #7bb4c7, stop: 0.4 #73a8b9,
+   stop: 0.95 #4a769c, stop: 1 #294258);
+   color:#fcf7f7;
+}
+QMenu::right-arrow {
+  image: url(arrow-right.svg);
+}

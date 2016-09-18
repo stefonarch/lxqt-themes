@@ -1,0 +1,20 @@
+/*
+ * lxqt-sudo dialog
+ */
+
+ #PasswordDialog {
+   background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+   stop: 0 #d0e6ec, stop: 1 #75979e);
+   padding: 1px;
+   margin: 2px;
+   border: 1px solid #486372;
+   border-radius: 1px;
+}
+
+#descriptionL,#descCommandL,#commandL,#descPasswordL {
+   color:#25333b
+}
+
+#errorL {
+   color:#616c6c;
+}
