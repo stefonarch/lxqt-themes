@@ -1,0 +1,107 @@
+/*
+ * Panel
+ */
+
+#panel {
+   background-color:qlineargradient(x1:1, y1:1, x2:0, y2:1, stop:0 #7f7f7f, stop:1 #909e9a); 
+   border: 1px solid #e2e6e7;
+   border-radius:3px;
+   padding: 4px;
+   margin: 0px;
+   border-radius:3px;
+}
+/*
+ * Buttons
+ */
+QToolButton::menu-indicator {
+   image: none;
+}
+
+QToolButton {
+   margin: 0px;
+   border: 0px solid transparent;
+   padding: 0px;
+   font-size: 10pt;
+   qproperty-iconSize: 20px;
+}
+
+QToolButton:hover {
+   margin: 1px;
+   padding: 1px;
+
+}
+
+#closeButton {
+   qproperty-icon: url(lxqt-runner/close.svg);
+}
+
+#actionButton {
+   qproperty-icon: url(lxqt-runner/down-arrow.svg);
+}
+
+/*
+ *Search field
+ */
+
+#commandEd {
+   border: 1px solid #878a8a;
+   padding: 4px;
+   margin: 5px;
+   background: #f0f0f0;
+   border-radius:2px;
+   font:14px dejavu-sans;
+}
+
+/*
+ *Search results list, seems not working, except background
+ */
+
+#commandList {
+   border: 1px solid #4C4C4C;
+}
+
+#commandList::item {
+   margin: 2px;
+   padding: 2px;
+}
+
+/*
+ * Menus
+ */
+
+QMenu {
+   background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #9c9c9c, stop:1 #bfbfbf);
+   border-radius:3px;
+}
+
+QMenu::icon {
+   background-color: transparent;
+   border: 1px solid transparent;
+   padding-left: 5px;
+}
+
+QMenu::item {
+   color: black;
+   border: 1px solid transparent;
+   padding: 5px 30px 5px 30px;
+}
+
+QMenu::item:selected {
+   background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+   stop: 0 #f7f7f7, stop: 0.08 #f1f1f1,
+   stop: 0.35 #c3c3c3, stop: 0.4 #b1b1b1,
+   stop: 0.96 #989898, stop: 1 #dcdcdc);
+   color:black;
+}
+
+QMenu::item:selected:disabled {
+   background-color: palette(text);
+}
+
+QMenu::item:disabled {
+   color: #6D6D6D;
+}
+
+QMenu::right-arrow {
+   image: url(arrow-right.svg);
+}
