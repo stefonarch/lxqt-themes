@@ -33,11 +33,11 @@ QToolButton:hover {
 }
 
 #closeButton {
-  property-icon: url(lxqt-runner/close.svg);
+  qproperty-icon: url(lxqt-runner/close.svg);
 }
 
 #actionButton {
-  property-icon: url(lxqt-runner/down-arrow.svg);
+  qproperty-icon: url(lxqt-runner/down-arrow.svg);
 }
 
 /*

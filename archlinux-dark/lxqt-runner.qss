@@ -9,7 +9,6 @@
   padding: 1px;
   margin: 0px;
 }
-
 /*
  * Buttons
  */
@@ -17,38 +16,33 @@
 QToolButton::menu-indicator {
   image: none;
 }
-
 QToolButton {
   margin: 0px;
   border: 0px solid transparent;
   padding: 0px;
   qproperty-iconSize: 20px;
 }
-
 QToolButton:hover {
   margin: 1px;
   padding: 1px;
 }
-
 #closeButton {
-  property-icon: url(lxqt-runner/close.svg);
+  qproperty-icon: url(lxqt-runner/close.svg);
 }
 
 #actionButton {
-  property-icon: url(lxqt-runner/down-arrow.svg);
+  qproperty-icon: url(lxqt-runner/down-arrow.svg);
 }
-
 /*
  *Search field
  */
-
 #commandEd {
   border: 1px solid palette(text);
   padding: 4px;
   margin: 5px;
   background: #f0f0f0;
   border-radius:2px;
-  font:14px dejavu-sans;
+  font:13px dejavu-sans;
 }
 /*
 Menu

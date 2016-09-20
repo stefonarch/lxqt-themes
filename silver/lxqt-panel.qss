@@ -88,7 +88,7 @@ QMenu::separator {
 QCalendarWidget QAbstractItemView:enabled {
    color: #3e3e3e;
    selection-background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #adadad, stop:1 #757c7b);
-   selection-color: #color;
+   selection-color: black;
    border-radius: 4px;
    background-color:#bdc3c3;
    border: 1px solid #939393;
@@ -122,7 +122,7 @@ QCalendarWidget QToolButton {
 }
 */
 QCalendarWidget #qt_calendar_nextmonth {
-   property-icon: url(calendar-popup/right-arrow.svg);
+   qproperty-icon: url(calendar-popup/right-arrow.svg);
    qproperty-iconSize: 18px;
 }
 QCalendarWidget #qt_calendar_prevmonth {
