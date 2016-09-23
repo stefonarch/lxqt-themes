@@ -43,7 +43,6 @@ Plugin > QToolButton:pressed,
 Plugin > QWidget > QToolButton:pressed,
 LXQtPanelPlugin > QToolButton:pressed {
    padding-top: 2px;
-   padding-left:1px;
 }
 Plugin > QToolButton:on,
 Plugin > QWidget > QToolButton:on,
@@ -58,12 +57,12 @@ LXQtPanelPlugin > QToolButton:on {
 Menus
 */
 QMenu {
-   background:#1899da;
-   border-radius:2px;
+   background-color:#041b27;
+   border-radius:3px;
 }
 QMenu::item {
    color: #d7e3e6;
-   background: #041b27;
+   background:#041b27;
    padding: 5px 35px 5px 30px;
 }
 QMenu::icon {
@@ -95,12 +94,13 @@ Mainmenu
    margin:0px 5px 0px 0px;
    padding:0px 6px;
 }
+
 /*
 Mainmenu search field & results
 */
 #MainMenu QLineEdit {
    border: none;
-   margin: 1px;
+   margin:3px;
    padding: 3px;
    background: #e7e2e2;
    color: #4d4b4b;
@@ -153,8 +153,6 @@ Tray Plugin
 */
 #Tray {
    min-width: 6px;
-   padding:1px;
-   
 }
 TrayIcon {
    background:none;  
@@ -164,8 +162,6 @@ statusnotifier
 */
 StatusNotifierButton {
    background:none;
-   padding:1px;
-  
 }
 /*
 Volume plugin
