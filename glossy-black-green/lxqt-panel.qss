@@ -55,7 +55,7 @@ LXQtPanelPlugin > QToolButton:on {
 Menus 
 */
 QMenu {
-   background:#d3d0d0;
+   background:#dce6dc;
    border-radius:2px;
 }
 

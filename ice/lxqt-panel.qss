@@ -136,7 +136,7 @@ QMenu::separator {
    padding: 5px 30px 5px 3px;
    background-color:#8da9b8;
 }
-#MainMenu ActionView::item:selected {
+#MainMenu ActionView::item:hover {
    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
    stop: 0 #def6fc, stop: 0.08 #d0e6ec,
    stop: 0.35 #7bb4c7, stop: 0.4 #73a8b9,

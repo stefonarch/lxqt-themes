@@ -57,7 +57,7 @@ LXQtPanelPlugin > QToolButton:on {
 Menus
 */
 QMenu {
-   background-color:#041b27;
+   background-color:#d7e3e6;
    border-radius:3px;
 }
 QMenu::item {
@@ -102,7 +102,7 @@ Mainmenu search field & results
    border: none;
    margin:3px;
    padding: 3px;
-   background: #e7e2e2;
+   background: #d7e3e7;
    color: #4d4b4b;
    border-radius: 1px;
 }
@@ -119,7 +119,7 @@ Mainmenu search field & results
    padding: 5px 30px 5px 3px;
 
 }
-#MainMenu ActionView::item:selected {
+#MainMenu ActionView::item:hover {
    background: #1899da;
    color:#d7e3e6;
 }
@@ -188,9 +188,10 @@ VolumePopup  > QPushButton {
    margin: 5px;
    border:1px solid black;
    qproperty-iconSize: 20px;
+   border-radius:2px;
 }
 VolumePopup  > QPushButton:hover {
-   color:#e4f4f9;
+   background:#1aa9f0;
 }
 VolumePopup  > QSlider::groove:vertical {
    background: hsv(0, 0, 9);
@@ -208,7 +209,7 @@ VolumePopup  > QSlider::add-page:vertical {
    border: 1px solid palette(text);
    border-radius: 3px;
 }
-VolumePopup  > QSlider::sub-page:vertical {
+VolumePopup  > QSlider::sub-page:vertical {  
    background: rgba(0, 0, 0, 80%);
    border-radius: 3px;
 }
@@ -305,6 +306,9 @@ DesktopSwitch
 }
 #DesktopSwitch QToolButton:on {
    color:#53bcec;
+}
+#DesktopSwitch QToolButton:on:hover {
+   color:black;
 }
 /*
 Quicklaunch
