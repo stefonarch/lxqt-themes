@@ -8,7 +8,7 @@ Themes for the LXQt Desktop
 * [Silver theme](https://github.com/stefonarch/silver-lxqt-theme)
 * [Glossy black and red theme](https://github.com/stefonarch/black-red-lxqt-theme)
 * [Glossy black and green theme](https://github.com/stefonarch/black-green-lxqt-theme)
-* [Blue icy theme](https://github.com/stefonarch/ice-lxqt-theme]
+* [Blue icy theme](https://github.com/stefonarch/ice-lxqt-theme)
 
 
 
