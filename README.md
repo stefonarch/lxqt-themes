@@ -11,6 +11,6 @@ Themes for the LXQt Desktop
 * [Blue icy theme](https://github.com/stefonarch/ice)
 
 
-Copy theme folders to /usr/share/lxqt/themes for system wide use or to ~/.local/share/lxqt/themes for single user'.
+Copy theme folders to /usr/share/lxqt/themes for system wide use or to ~/.local/share/lxqt/themes for single user.
 
 To install all the themes run ./install_all.sh with root privileges.
