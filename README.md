@@ -6,6 +6,7 @@ Themes for the LXQt Desktop
 
 * [Arch linux dark theme](https://github.com/stefonarch/archlinux-dark)
 * [Silver theme](https://github.com/stefonarch/silver)
+* [Valendas](https://github.com/stefonarch/Valendas)
 * [Glossy black and red theme](https://github.com/stefonarch/black-red)
 * [Glossy black and green theme](https://github.com/stefonarch/black-green)
 * [Blue icy theme](https://github.com/stefonarch/ice)

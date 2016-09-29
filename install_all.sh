@@ -18,7 +18,8 @@ for i in \
 	silver \
 	black-red \
 	black-green \
-	ice
+	ice \
+   Valendas
 
 do
 	echo "Downloading $i theme ........."
