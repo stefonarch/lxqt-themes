@@ -19,7 +19,9 @@ for i in \
 	black-red \
 	black-green \
 	ice \
-   Valendas
+	Valendas \
+	simple
+
 
 do
 	echo "Downloading $i theme ........."
