@@ -1,31 +1,10 @@
 ---
-name: Bug report
-about: Create a report to help us improve LXQt. For outdated versions please file bug reports to your distro's bugtracker.
-title: ""
+name: General Discussions
+about: 'For general discussions please use '
+title: ''
 labels: ''
 assignees: ''
 
 ---
 
-**Description of the bug**
-<!--A clear and concise description of what the bug is.-->
 
-**To Reproduce**
-<!--Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error  -->
-
-**Expected behavior**
-<!-- A clear and concise description of what you expected to happen.-->
-
-**Screenshots**
-<!-- If applicable, add screenshots to help explain your problem. -->
-
-**Version LXQt**
-<!-- Version of LXqt, window manager used-->
-
- 
-**Additional context**
-<!-- Add any other context about the problem here. -->
